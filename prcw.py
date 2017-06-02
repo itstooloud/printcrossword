@@ -53,8 +53,10 @@ print('NYT URL: ' + nyturl + nytpuz())
 print('LAT URL: ' + laturl + latpuz())
 
 
-#def todaysnytname(date):
+nyturl = nyturl + nytpuz()
+laturl = laturl + latpuz()
 
+print(nyturl)
+print(laturl)
 
-#def todayslatname(date):
 
